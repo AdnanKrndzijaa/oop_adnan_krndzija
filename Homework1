@@ -1,0 +1,102 @@
+//Task 1: Create a program that prints your name to the screen.
+//first solution
+public class Main {
+  public static void main(String[] args){
+    System.out.println("Adnan Krndzija");
+  }
+}
+//second solution
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args){
+    Scanner input = new Scanner (System.in);
+    
+    
+    System.out.print("Name: ");
+    String fname = input.next();
+    System.out.print("Surname: ");
+    String lname = input.next();
+    System.out.println();
+    System.out.println(fname+" "+lname);
+  }
+}
+//-------------------------------------------------------------
+//Task 2: Create a program that prints out the following:
+
+public class Main {
+  public static void main(String[] args){
+    System.out.println("Hello World\n(And all the people of the world)");
+  }
+}
+//-------------------------------------------------------------
+//Task 3: Create a program that counts how many seconds there are in a year. 
+//        You can assume that a year consists of 365 days (therefore the year is not a leap year).
+
+public class Main{
+  public static void main(String[] args){
+    int seconds =365*24*60*60;
+    System.out.println("There is " + seconds + " seconds in a year.");
+  }
+}
+//-------------------------------------------------------------
+//Task 4: Create a program that asks the user for two integers and then prints their sum. 
+
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner reader = new Scanner (System.in);
+    
+    System.out.print("First: ");
+    int first = Integer.parseInt(reader.nextLine());
+    System.out.print("Second: ");
+    int second = Integer.parseInt(reader.nextLine());
+    System.out.println("Sum is "+ (first+second));
+  }
+}
+//-------------------------------------------------------------
+//Task 5: Create a program that asks the user for a number and tells if the number is positive (i.e. greater than zero).
+
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner reader = new Scanner (System.in);
+
+    System.out.print("Number: ");
+    int number = Integer.parseInt(reader.nextLine());
+    
+    if (number > 0){
+      System.out.println("Number is positive.");
+    }
+    else{
+      System.out.println("Number is negative.");
+    }
+  }
+}
+//-------------------------------------------------------------
+//Task 6: Create a program that asks the user for a number and tells if the number is positive (i.e. greater than zero).
+
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner reader = new Scanner (System.in);
+
+    System.out.print("First: ");
+    int first = Integer.parseInt(reader.nextLine());
+    System.out.print("Second: ");
+    int second = Integer.parseInt(reader.nextLine());
+
+    if (first>second){
+      System.out.println("First number ("+first+") is greater.");
+    }
+    else if (first<second){
+      System.out.println("Second number ("+second+") is greater.");
+    }
+    else {
+      System.out.println("The numbers are equal!");
+    }
+  }
+}

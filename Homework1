@@ -14,9 +14,9 @@ public class Main {
     
     
     System.out.print("Name: ");
-    String fname = input.next();
+    String fname = input.nextLine();
     System.out.print("Surname: ");
-    String lname = input.next();
+    String lname = input.nextLine();
     System.out.println();
     System.out.println(fname+" "+lname);
   }

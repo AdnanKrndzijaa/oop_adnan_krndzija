@@ -11,7 +11,7 @@ public class Dice {
     }
 
     public Dice() {
-        System.out.println("Hello"); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Hello");
     }
 
     public int roll(){

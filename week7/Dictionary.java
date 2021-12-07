@@ -28,8 +28,8 @@ public class Dictionary {
     public ArrayList<String> translationList(){
         ArrayList<String> translateList = new ArrayList<String>();
 
-        for(String k : dictionary.keySet()){
-            translateList.add(k + " = " + dictionary.get(k));
+        for(String i : dictionary.keySet()){
+            translateList.add(k + " = " + dictionary.get(i));
         }
 
         return translateList;

@@ -8,9 +8,6 @@ public class TextUserInterface {
     public TextUserInterface(Scanner reader, Dictionary dictionary) {
         this.reader = reader;
         this.dictionary = dictionary;
-
-        // System.out.println(reader.nextLine());
-
         System.out.println("Statement\n\tquit - quit the text user interface\n\ttranslate - asks a word and prints its translation\n\tadd - adds a word pair to the dictionary");
     }
 
@@ -23,7 +20,8 @@ public class TextUserInterface {
             if (command.equals("quit")){
                 System.out.println("Cheers");
                 break;
-            } else {
+            } 
+            else {
                 handleCommand(command);
             }
         }
@@ -36,12 +34,14 @@ public class TextUserInterface {
             System.out.print("Translation: ");
             String translation = reader.nextLine();
             add(word, translation);
-        } else if (command.equals("translate")){
+        } 
+        else if (command.equals("translate")){
             System.out.print("Give a word: ");
             String word = reader.nextLine();
             System.out.println("Translation: " + translate(word));
-        }else{
-            System.out.println("Uknown statement");
+        }
+        else{
+            System.out.println("Unknown statement");
         }
     }
 

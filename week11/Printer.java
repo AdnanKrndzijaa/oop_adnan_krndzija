@@ -14,8 +14,8 @@ public class Printer {
             reader = new Scanner(this.file);
         }
         catch (Exception e) {
-            System.out.println("We couldn't read the file. Error: " + e.getMessage());
-            return; // we exit the method
+            System.out.println("We could not read the file, error: " + e.getMessage());
+            return;
         }
         if (word.equals("")){
             while (reader.hasNextLine()) {

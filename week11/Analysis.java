@@ -2,7 +2,7 @@ package file;
 import java.io.File;
 import java.util.Scanner;
 
-public class Analysis {
+public class Analysis{
     private File file;
     private Scanner reader=null;
 
@@ -10,7 +10,7 @@ public class Analysis {
         this.file=file;
     }
     public int lines(){
-        try {
+        try{
             this.reader = new Scanner(this.file);
             int numberOfLines=0;
 
@@ -22,12 +22,12 @@ public class Analysis {
             return numberOfLines;
         }
         catch (Exception e){
-            System.out.println("We couldn't read the file. Error: " + e.getMessage());
+            System.out.println("We could not read the file, error: " + e.getMessage());
             return 0;
         }
     }
     public int characters(){
-        try {
+        try{
             Scanner reader = new Scanner(this.file);
             int numberOfChars=0;
             while (reader.hasNextLine()){

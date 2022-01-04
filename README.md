@@ -17,16 +17,16 @@ Week 6 - Tables, Sorting & Searching
 
 Week 7 - HashMap data structure
 
-Week 8 - MIDTERM
+Week 8 & 9 - MIDTERM
 
-Week 9 - Interfaces
+Week 10 - Interfaces
 
-Week 10 - Exceptions & Reading from file
+Week 11 - Exceptions & Reading from file
 
-Week 11 - Inheritance
+Week 12 - Inheritance
 
-Week 12 - Writing into files & Graphical user interface (GUI)
+Week 13 - Writing into files & Graphical user interface (GUI)
 
-Week 13 - Regular expressions & Iterators
+Week 14 - Regular expressions & Iterators
 
-Week 14 - Enum & Recap
+Week 15 - Enum & Recap

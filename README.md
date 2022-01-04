@@ -30,3 +30,7 @@ Week 13 - Writing into files & Graphical user interface (GUI)
 Week 14 - Regular expressions & Iterators
 
 Week 15 - Enum & Recap
+
+Week 16 - Study Week
+
+Week 17 & 18 - FINAL
